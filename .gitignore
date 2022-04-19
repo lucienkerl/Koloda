@@ -29,3 +29,5 @@ pkg/*
 
 Pods
 Podfile.lock
+
+.build/
