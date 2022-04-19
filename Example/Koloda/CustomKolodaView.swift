@@ -6,9 +6,7 @@
 //  Copyright (c) 2015 CocoaPods. All rights reserved.
 //
 
-#if canImport(UIKit)
-    import UIKit
-#endif
+import UIKit
 import Koloda
 
 let defaultTopOffset: CGFloat = 20

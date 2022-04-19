@@ -6,9 +6,7 @@
 //  Copyright (c) 2015 Eugene Andreyev. All rights reserved.
 //
 
-#if canImport(UIKit)
-    import UIKit
-#endif
+import UIKit
 
 open class OverlayView: UIView {
     
