@@ -6,7 +6,9 @@
 //  Copyright (c) 2015 CocoaPods. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
+    import UIKit
+#endif
 import Koloda
 
 private let numberOfCards: Int = 5

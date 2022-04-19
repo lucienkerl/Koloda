@@ -6,7 +6,9 @@
 //  Copyright (c) 2015 Yalantis. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
+    import UIKit
+#endif
 
 public enum DragSpeed: TimeInterval {
     case slow = 2.0

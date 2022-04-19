@@ -7,7 +7,9 @@
 //
 
 import Foundation
-import UIKit
+#if canImport(UIKit)
+    import UIKit
+#endif
 
 open class KolodaViewAnimator {
     

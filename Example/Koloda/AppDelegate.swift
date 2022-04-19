@@ -6,7 +6,9 @@
 //  Copyright (c) 07/01/2015 Eugene Andreyev. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
+    import UIKit
+#endif
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

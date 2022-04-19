@@ -6,7 +6,9 @@
 //  Copyright (c) 2015 Eugene Andreyev. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
+    import UIKit
+#endif
 import Koloda
 
 private var numberOfCards: Int = 5
