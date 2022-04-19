@@ -6,9 +6,7 @@
 //  Copyright (c) 2015 Eugene Andreyev. All rights reserved.
 //
 
-#if canImport(UIKit)
-    import UIKit
-#endif
+import UIKit
 
 // Default values
 private let defaultCountOfVisibleCards = 3
